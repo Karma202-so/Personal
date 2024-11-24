@@ -1,0 +1,19 @@
+{
+    "name": "Karma Sonam Tashi",
+    "title": "UI/UX Designer",
+    "contact": {
+        "location": "Changidaphu, Thimphu, Bhutan",
+        "phone": "+975 17539002",
+        "email": "kst90@gmail.com"
+    },
+    "experience": [
+        {
+            "role": "UI/UX Designer",
+            "company": "Company Name",
+            "start_date": "YYYY-MM",
+            "end_date": "YYYY-MM",
+            "description": "Describe the role and accomplishments."
+        }
+    ],
+    "skills": ["Photoshop", "Web Design", "App Design", "SEO"]
+}
