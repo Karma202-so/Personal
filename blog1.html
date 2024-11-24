@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Accessibility in Design - Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        header {
+            background: url('assets/imgs/blog-1.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: var(--primary);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: var(--danger);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Accessibility in Design</h1>
+            <p>Creating inclusive digital experiences for everyone.</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                In today’s interconnected world, accessibility is no longer optional—it is a fundamental requirement. Ensuring designs are inclusive not only demonstrates social responsibility but also opens your product to a broader audience.
+            </p>
+        </section>
+        <section>
+            <h2>Key Strategies for Accessible Design</h2>
+            <ul>
+                <li><strong>Color Contrast:</strong> Ensure text is easily readable by maintaining sufficient contrast ratios.</li>
+                <li><strong>Keyboard Navigation:</strong> Provide full functionality through keyboard shortcuts for users with mobility impairments.</li>
+                <li><strong>Screen Reader Compatibility:</strong> Include descriptive alt-text for images and accessible labels for interactive elements.</li>
+                <li><strong>Test Early and Often:</strong> Use accessibility testing tools such as Axe or Lighthouse to validate your designs.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Why Accessibility Matters</h2>
+            <p>
+                Accessibility enhances user satisfaction, ensures compliance with legal standards (e.g., WCAG), and strengthens brand reputation. By prioritizing accessibility, you show commitment to inclusivity and innovation.
+            </p>
+        </section>
+        <a href="blog.html" class="btn">Back to Blogs</a>
+    </main>
+</body>
+</html>
